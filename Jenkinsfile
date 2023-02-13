@@ -1,2 +1,6 @@
 @Library('robot-shared-library') _
-nodejs("user")
+
+env.COMPONENT="user"
+env.APP="nodejs"
+
+nodejs()
